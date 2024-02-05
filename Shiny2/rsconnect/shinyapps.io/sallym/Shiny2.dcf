@@ -1,0 +1,12 @@
+name: Shiny2
+title: Shiny2
+username: sallym
+account: sallym
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11130689
+bundleId: 8219499
+url: https://sallym.shinyapps.io/Shiny2/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
