@@ -7,7 +7,7 @@
 #    https://shiny.posit.co/
 #
 
-library(shiny)
+source("RData.R")
 
 # Define server logic required to draw a histogram
 function(input, output, session) {
@@ -27,14 +27,8 @@ function(input, output, session) {
 
 }
 
-
-library(shiny)
-library(ggplot2)
-
-source("RData.R")
-
-
 shinyServer(function(input, output) {
+  
   # Reactive function to filter data based on selected region
   filtered_data <- reactive({
     filter(alcohol_deaths, region == input$region)

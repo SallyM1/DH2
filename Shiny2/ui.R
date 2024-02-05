@@ -7,7 +7,7 @@
 #    https://shiny.posit.co/
 #
 
-library(shiny)
+source("RData.R")
 
 # Define UI for application that draws a histogram
 fluidPage(
